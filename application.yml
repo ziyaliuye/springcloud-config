@@ -9,11 +9,11 @@ spring:
 spring: 
   profiles: dev  # 开发环境
   applition: 
-    name: springcloud-config-dev
+    name: config-server-dev
     
 ---
 
 spring: 
   profiles: test
   applition: 
-    name: springcloud-config-test  # 测试环境
+    name: config-server-test  # 测试环境

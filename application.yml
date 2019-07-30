@@ -1,1 +1,19 @@
-fdfdf
+# 以UTF-8 编码格式进行保存
+spring: 
+  profiles: 
+    active: 
+    - dev
+    
+---
+
+spring: 
+  profiles: dev  # 开发环境
+  applition: 
+    name: springcloud-config-dev
+    
+---
+
+spring: 
+  profiles: test
+  applition: 
+    name: springcloud-config-test  # 测试环境

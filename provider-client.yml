@@ -63,7 +63,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       # 数据库名称
       #url: jdbc:mysql://localhost:3306/cloudDB01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
-      url: jdbc:mysql://192.168.58.128:3306/cloudDB01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      url: jdbc:mysql://192.168.58.128:3306/cloudDB02?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
       username: root
       password: root
       dbcp2:
